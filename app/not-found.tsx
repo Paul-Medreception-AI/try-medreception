@@ -7,25 +7,25 @@ export default function NotFound() {
         <div className="font-cormorant text-9xl text-[var(--color-primary)] opacity-20 font-bold leading-none">
           404
         </div>
-        <h1 className="font-cormorant text-4xl md:text-5xl text-[var(--color-ink)] mt-4 font-semibold">
+        <h1 className="font-cormorant text-4xl text-[var(--color-ink)] mt-4 font-semibold">
           Page Not Found
         </h1>
         <p className="text-[var(--color-muted)] mt-2 text-lg">
-          The page you're looking for doesn't exist.
+          The page you&apos;re looking for doesn&apos;t exist.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+        <div className="flex gap-4 justify-center mt-8">
           <Link
             href="/"
-            className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-medium px-8 py-3 rounded-md transition-colors"
+            className="bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
             Go Home
           </Link>
-          <Link
-            href="/contact"
-            className="inline-block border-2 border-[var(--color-border)] hover:border-[var(--color-primary)] text-[var(--color-ink)] font-medium px-8 py-3 rounded-md transition-colors"
+          <a
+            href="https://www.medreception.ai/book?utm_source=trymedreception&utm_medium=outreach"
+            className="bg-white hover:bg-[var(--color-light)] text-[var(--color-primary)] px-8 py-3 rounded-lg font-semibold border border-[var(--color-border)] transition-colors"
           >
-            Contact Us
-          </Link>
+            Book a Demo
+          </a>
         </div>
       </div>
     </div>

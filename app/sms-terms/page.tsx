@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'SMS Terms & Conditions | Try MedReception',
-  description: 'SMS messaging terms and conditions for Try MedReception. A2P 10DLC compliance information.',
+  title: 'SMS Terms & Conditions | MedReception AI',
+  description: 'SMS messaging terms and conditions for MedReception AI. A2P 10DLC compliance information.',
 }
 
 export default function SMSTermsPage() {
@@ -34,7 +34,7 @@ export default function SMSTermsPage() {
               Program Description
             </h2>
             <p className="text-[var(--color-ink)] leading-relaxed">
-              Try MedReception offers SMS text messaging services to provide appointment reminders, confirmation requests, practice updates, and customer service communications to patients and healthcare providers who opt in to receive such messages.
+              MedReception AI offers SMS text messaging services to provide appointment reminders, confirmation requests, practice updates, and customer service communications to patients and healthcare providers who opt in to receive such messages.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function SMSTermsPage() {
               Opt-In and Consent
             </h2>
             <p className="text-[var(--color-ink)] leading-relaxed mb-4">
-              By providing your mobile phone number and opting in to receive SMS messages from Try MedReception, you expressly consent to receive automated text messages at the phone number you provided. Consent is not a condition of purchase.
+              By providing your mobile phone number and opting in to receive SMS messages from MedReception AI, you expressly consent to receive automated text messages at the phone number you provided. Consent is not a condition of purchase.
             </p>
             <p className="text-[var(--color-ink)] leading-relaxed">
               You may opt in by:
@@ -70,7 +70,7 @@ export default function SMSTermsPage() {
               Message and Data Rates
             </h2>
             <p className="text-[var(--color-ink)] leading-relaxed">
-              Standard message and data rates may apply based on your mobile carrier plan. Please contact your wireless provider for details on your specific plan and applicable charges. Try MedReception is not responsible for any charges incurred from your mobile carrier.
+              Standard message and data rates may apply based on your mobile carrier plan. Please contact your wireless provider for details on your specific plan and applicable charges. MedReception AI is not responsible for any charges incurred from your mobile carrier.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function SMSTermsPage() {
               Liability and Disclaimer
             </h2>
             <p className="text-[var(--color-ink)] leading-relaxed">
-              Try MedReception is not liable for delayed or undelivered messages. SMS delivery is dependent on your mobile carrier and network conditions. We recommend not relying solely on SMS for time-sensitive or critical communications.
+              MedReception AI is not liable for delayed or undelivered messages. SMS delivery is dependent on your mobile carrier and network conditions. We recommend not relying solely on SMS for time-sensitive or critical communications.
             </p>
           </div>
 
@@ -162,7 +162,7 @@ export default function SMSTermsPage() {
                 <strong>Website:</strong> <a href="https://trymedreception.com" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] transition-colors">trymedreception.com</a>
               </p>
               <p className="text-[var(--color-ink)]">
-                <strong>Service:</strong> Try MedReception SMS Program
+                <strong>Service:</strong> MedReception AI SMS Program
               </p>
             </div>
           </div>

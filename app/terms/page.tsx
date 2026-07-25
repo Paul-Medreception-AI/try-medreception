@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Try MedReception',
-  description: 'Terms of Service for Try MedReception',
+  title: 'Terms of Service | MedReception AI',
+  description: 'Terms of Service for MedReception AI',
 }
 
 export default function TermsPage() {
@@ -18,14 +18,14 @@ export default function TermsPage() {
       <section className="bg-white max-w-4xl mx-auto px-6 py-16">
         <div className="prose prose-lg max-w-none">
           <p className="text-[var(--color-muted)] text-lg mb-8">
-            Please read these Terms of Service carefully before using Try MedReception services. By accessing or using our website and services, you agree to be bound by these terms.
+            Please read these Terms of Service carefully before using MedReception AI services. By accessing or using our website and services, you agree to be bound by these terms.
           </p>
 
           <h2 className="font-cormorant text-2xl font-semibold text-[var(--color-ink)] mt-10 mb-4">
             1. Acceptance of Terms
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            By accessing and using Try MedReception ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the Service.
+            By accessing and using MedReception AI ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these Terms of Service, please do not use the Service.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             We reserve the right to update and change these Terms of Service at any time without notice. Continued use of the Service after any such changes constitutes your consent to such changes.
@@ -35,7 +35,7 @@ export default function TermsPage() {
             2. Description of Services
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            Try MedReception provides virtual receptionist and administrative support services for medical practices. Our website describes these services and provides information about our offerings.
+            MedReception AI provides virtual receptionist and administrative support services for medical practices. Our website describes these services and provides information about our offerings.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             The information provided on our website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. We are not a healthcare provider and do not provide medical services.
@@ -48,7 +48,7 @@ export default function TermsPage() {
             3. Not Emergency Care
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            Try MedReception is not an emergency service. Our services are not designed for, and should not be used for, emergency medical situations.
+            MedReception AI is not an emergency service. Our services are not designed for, and should not be used for, emergency medical situations.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             If you are experiencing a medical emergency, call 911 or go to the nearest emergency room immediately. Do not use our services or contact our team for emergency medical assistance.
@@ -58,7 +58,7 @@ export default function TermsPage() {
             4. Insurance and Billing
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            Try MedReception does not process insurance claims or provide insurance billing services. We are not responsible for verifying insurance coverage, submitting claims, or handling insurance-related matters.
+            MedReception AI does not process insurance claims or provide insurance billing services. We are not responsible for verifying insurance coverage, submitting claims, or handling insurance-related matters.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             Payment for our services is the responsibility of the contracting medical practice. All fees and payment terms will be outlined in separate service agreements.
@@ -68,7 +68,7 @@ export default function TermsPage() {
             5. HIPAA Compliance
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            Try MedReception is committed to protecting the privacy and security of protected health information (PHI) in accordance with the Health Insurance Portability and Accountability Act (HIPAA).
+            MedReception AI is committed to protecting the privacy and security of protected health information (PHI) in accordance with the Health Insurance Portability and Accountability Act (HIPAA).
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             We enter into Business Associate Agreements (BAAs) with covered entities and implement appropriate administrative, physical, and technical safeguards to protect PHI. Our staff receives regular HIPAA training and follows strict protocols for handling sensitive information.
@@ -81,7 +81,7 @@ export default function TermsPage() {
             6. Limitation of Liability
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            To the maximum extent permitted by law, Try MedReception shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
+            To the maximum extent permitted by law, MedReception AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
           </p>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
             Our total liability in any matter arising out of or related to these terms is limited to the aggregate amount paid by you for the services during the three months prior to the event giving rise to the liability.
@@ -107,7 +107,7 @@ export default function TermsPage() {
             If you have any questions about these Terms of Service, please contact us:
           </p>
           <div className="bg-[var(--color-cream)] p-6 rounded-lg border border-[var(--color-border)] mt-4">
-            <p className="text-[var(--color-ink)] font-medium mb-2">Try MedReception</p>
+            <p className="text-[var(--color-ink)] font-medium mb-2">MedReception AI</p>
             <p className="text-[var(--color-muted)]">Website: trymedreception.com</p>
             <p className="text-[var(--color-muted)]">Email: contact@trymedreception.com</p>
           </div>

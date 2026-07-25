@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Privacy Policy | Try MedReception',
-  description: 'Privacy Policy for Try MedReception',
+  title: 'Privacy Policy | MedReception AI',
+  description: 'Privacy Policy for MedReception AI',
 }
 
 export default function PrivacyPage() {
@@ -18,14 +18,14 @@ export default function PrivacyPage() {
       <div className="bg-white max-w-4xl mx-auto px-6 py-16 my-12 rounded-lg shadow-sm">
         <div className="prose prose-lg max-w-none">
           <p className="text-[var(--color-muted)] leading-relaxed">
-            At Try MedReception, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.
+            At MedReception AI, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.
           </p>
 
           <h2 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4 font-semibold">
             Who We Are
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            Try MedReception (trymedreception.com) provides virtual medical reception services to healthcare practices. We help medical offices manage patient communications, appointment scheduling, and administrative tasks.
+            MedReception AI (trymedreception.com) provides virtual medical reception services to healthcare practices. We help medical offices manage patient communications, appointment scheduling, and administrative tasks.
           </p>
 
           <h2 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4 font-semibold">
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
             SMS Messaging
           </h2>
           <p className="text-[var(--color-muted)] leading-relaxed mb-4">
-            If you opt in to receive SMS messages from Try MedReception:
+            If you opt in to receive SMS messages from MedReception AI:
           </p>
           <ul className="list-disc list-inside text-[var(--color-muted)] leading-relaxed mb-4 space-y-2">
             <li>You consent to receive text messages about our services, updates, and promotional offers</li>
@@ -141,8 +141,8 @@ export default function PrivacyPage() {
             If you have questions about this Privacy Policy or how we handle your information, please contact us:
           </p>
           <div className="bg-[var(--color-cream)] p-6 rounded-lg">
-            <p className="text-[var(--color-ink)] font-semibold mb-2">Try MedReception</p>
-            <p className="text-[var(--color-muted)]">Email: privacy@trymedreception.com</p>
+            <p className="text-[var(--color-ink)] font-semibold mb-2">MedReception AI</p>
+            <p className="text-[var(--color-muted)]">Contact us: https://www.medreception.ai/book</p>
             <p className="text-[var(--color-muted)]">Website: trymedreception.com</p>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function PrivacyPage() {
             </Link>
           </div>
           <p className="text-white/60 text-sm">
-            &copy; {new Date().getFullYear()} Try MedReception. All rights reserved.
+            &copy; {new Date().getFullYear()} MedReception AI. All rights reserved.
           </p>
         </div>
       </footer>
